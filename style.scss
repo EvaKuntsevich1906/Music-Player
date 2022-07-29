@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: #454545;
+}
+
+.player {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 540px;
+    height: 169px;
+    background: #FFFEF8;
+    border-radius: 14.6957px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    .envelope {
+        background-image: url(./image/rihanna.jpg);
+        width: 169px;
+        height: 169px;
+        border-radius: 14.6957px 0px 0px 14.6957px;
+
+    }
+    .track {
+        height: 169px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        .track_name_spotify {
+            width: 306px;
+            height: 22px;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            margin: 18px 0 0 33px;
+            .track_name {
+                width: 149px;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            .spotify {
+                background-image: url(./image/spotify.png);
+                width: 21px;
+                height: 21px;  
+            }
+        }
+    
+    }
+}
+
+.singer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 265.5px 22.3px 32.5px;
+    color: #454545;
+}
+
+.line_time {
+    margin-top: 5px;
+    .line_container {
+        background-color: #DADADA;
+        width: 257px;
+        height: 3px;
+        margin: auto 16.5px auto 32.5px;
+    
+        .line {
+            background: #B45353;
+            border-radius: 3px;
+            height: 3px;
+        }
+    }
+    
+    .time {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+.panel {
+    width: 306px;
+    height: 35px;
+    justify-content: space-between;
+    margin-left: 33px;
+    margin-top: 11px;
+    .arrows {
+        background-image: url(./image/arrow.svg) ;
+        width: 16px;
+        height: 16px;
+        margin: auto 0 auto 0;
+
+    }
+    .play {
+        justify-content: space-between;
+        height: 38px;
+        width: 149px;
+       
+        .back .stop .forward {
+            width: 35px;
+            height: 35px;
+         
+        }
+        .back {
+            background-image: url(./image/back.svg);
+        }
+        
+        .stop {
+            background-image: url(./image/stop.svg);
+
+        }
+        
+        .forward {
+            background-image: url(./image/forward.svg);
+        }
+    }
+    .like {
+        background-image: url(./image/like.svg);
+        width: 18px;
+        height: 15px;
+        margin: auto 0 auto 0;
+    
+    }
+}

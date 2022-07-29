@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  background-color: #454545;
+}
+
+.player {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 540px;
+  height: 169px;
+  background: #FFFEF8;
+  border-radius: 14.6957px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.player .envelope {
+  background-image: url(./image/rihanna.jpg);
+  width: 169px;
+  height: 169px;
+  border-radius: 14.6957px 0px 0px 14.6957px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.player .track {
+  height: 169px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.player .track .track_name_spotify {
+  width: 306px;
+  height: 22px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 18px 0 0 33px;
+}
+.player .track .track_name_spotify .track_name {
+  width: 149px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.player .track .track_name_spotify .spotify {
+  background-image: url(./image/spotify.svg);
+  width: 21px;
+  height: 21px;
+}
+
+.singer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 265.5px 22.3px 32.5px;
+  color: #454545;
+}
+
+.line_time {
+  margin-top: 5px;
+}
+.line_time .line_container {
+  background-color: #DADADA;
+  width: 257px;
+  height: 3px;
+  margin: auto 16.5px auto 32.5px;
+}
+.line_time .line_container .line {
+  background: #B45353;
+  border-radius: 3px;
+  height: 3px;
+}
+.line_time .time {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.panel {
+  width: 306px;
+  height: 35px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 33px;
+  margin-top: 11px;
+}
+.panel .arrows {
+  background-image: url(./image/arrow.svg);
+  width: 16px;
+  height: 16px;
+  margin: auto 0 auto 0;
+  background-size: cover;
+}
+.panel .play {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 38px;
+  width: 149px;
+  background-repeat: no-repeat;
+}
+.panel .play .back {
+  background-image: url(./image/back.svg);
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+.panel .play .stop {
+  background-image: url(./image/stop.svg);
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+.panel .play .forward {
+  background-image: url(./image/forward.svg);
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+.panel .like {
+  background-image: url(./image/like.svg);
+  width: 18px;
+  height: 15px;
+  background-size: cover;
+  margin: auto 0 auto 0;
+}
