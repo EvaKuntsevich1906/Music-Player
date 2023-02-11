@@ -58,9 +58,11 @@ const playlist = [{
     }];
 
 let index = 0;
-let stopflag = true;
-let likeflag = true;
 let arrowsflag = true;
+let stopflag = true;
+
+let likeflag = true;
+
 const music = document.createElement('audio');
 music.src = playlist[index].path;
 
